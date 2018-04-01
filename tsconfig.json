@@ -1,43 +1,45 @@
 {
-  "compilerOptions": {
-    "module": "CommonJS",
-    "target": "es2017",
+	"compilerOptions": {
+		"module": "CommonJS",
+		"target": "es2017",
 
-    "moduleResolution": "node",
-    "allowJs": false,
+		"moduleResolution": "node",
+		"allowJs": false,
 
-    //"sourceMap": true,
-    //"inlineSourceMap": true,
-    //"inlineSources": true,
+		//"sourceMap": true,
+		//"inlineSourceMap": true,
+		//"inlineSources": true,
 
-    "declaration": true,
-    "experimentalDecorators": true,
+		"declaration": true,
+		"experimentalDecorators": true,
 
-    "allowSyntheticDefaultImports": true,
+		"allowSyntheticDefaultImports": true,
 
-    "strict": false,
+		"strict": false,
 
-    //"forceConsistentCasingInFileNames": true,
+		//"forceConsistentCasingInFileNames": true,
 
-    "locale": "zh-TW",
-    "pretty": true,
+		"locale": "zh-TW",
+		"pretty": true,
 
-    //"removeComments": true,
+		//"esModuleInterop": true,
 
-//    "baseUrl": ".",
-//    "sourceRoot": ".",
-//    "rootDir": ".",
-//    "outDir": ".",
+		//"removeComments": true,
 
-    "paths": {
+		//    "baseUrl": ".",
+		//    "sourceRoot": ".",
+		//    "rootDir": ".",
+		//    "outDir": ".",
 
-    },
+		"paths": {
 
-    "traceResolution": true,
-    "newLine": "lf"
-  },
+		},
 
-  "exclude": [
-    "node_modules"
-  ]
+		"traceResolution": true,
+		"newLine": "lf"
+	},
+
+	"exclude": [
+		"node_modules"
+	]
 }
