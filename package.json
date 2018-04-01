@@ -2,39 +2,43 @@
   "name": "symbol-tree2",
   "version": "3.2.2",
   "description": "Turn any collection of objects into its own efficient tree or linked list using Symbol",
-  "main": "lib/SymbolTree.js",
-  "scripts": {
-    "lint": "eslint lib test",
-    "test": "istanbul cover test/SymbolTree.js",
-    "posttest": "npm run lint",
-    "ci": "istanbul cover test/SymbolTree.js --report lcovonly && cat ./coverage/lcov.info | coveralls",
-    "postci": "npm run posttest",
-    "predocumentation": "cp readme-header.md README.md",
-    "documentation": "jsdoc2md --files lib/SymbolTree.js >> README.md"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jsdom/js-symbol-tree.git"
-  },
   "keywords": [
+    "dom",
+    "es6",
+    "linked-list",
     "list",
     "queue",
     "stack",
-    "linked-list",
-    "tree",
-    "es6",
-    "dom",
-    "symbol"
+    "symbol",
+    "tree"
   ],
+  "homepage": "https://github.com/bluelovers/js-symbol-tree#readme",
+  "bugs": {
+    "url": "https://github.com/bluelovers/js-symbol-tree/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/js-symbol-tree.git"
+  },
+  "license": "MIT",
+  "author": "Joris van der Wel <joris@jorisvanderwel.com>",
   "files": [
     "lib"
   ],
-  "author": "Joris van der Wel <joris@jorisvanderwel.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jsdom/js-symbol-tree/issues"
+  "main": "lib/SymbolTree.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   },
-  "homepage": "https://github.com/jsdom/js-symbol-tree#symbol-tree",
+  "scripts": {
+    "ci": "istanbul cover test/SymbolTree.js --report lcovonly && cat ./coverage/lcov.info | coveralls",
+    "postci": "npm run posttest",
+    "predocumentation": "cp readme-header.md README.md",
+    "documentation": "jsdoc2md --files lib/SymbolTree.js >> README.md",
+    "lint": "eslint lib test",
+    "test": "istanbul cover test/SymbolTree.js",
+    "posttest": "npm run lint"
+  },
   "devDependencies": {
     "babel-eslint": "^8.0.0",
     "coveralls": "^3.0.0",
